@@ -13,18 +13,20 @@ DIPzilla 可以用于在一台**静态** IP 地址的服务器上记录**动态*
 
 ### 原理
 
-1. 在拥有静态公网 IP 地址的服务器架设 DIPzilla-Server
-2. 在动态公网 IP 地址的家庭服务器架设 DIPzilla-Client
+1. 在拥有**静态**公网 IP 地址的服务器架设 DIPzilla-Server
+2. 在**动态**公网 IP 地址的家庭服务器架设 DIPzilla-Client
 3. Client 会定时向 Server 发送请求，Server 分析 Client 的公网 IP 地址，并保存到 Server 数据库中
 4. 用户通过访问 Server 端交互终端，获得 Client（可以多个）的公网 IP 地址
 
+![](DIP.png)
+
 ### 截图
 
-[](/pic/1.png)
+![](/pic/1.png)
 
 Telnet 访问服务端，读取客户端信息
 
-[](/pic/2.png)
+![](/pic/2.png)
 
 客户端自动同步至服务端
 
