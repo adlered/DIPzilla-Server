@@ -10,6 +10,7 @@ DIPzilla 可以用于在一台**静态** IP 地址的服务器上记录**动态*
 * 适用于拥有动态 IP 地址的家用宽带
 * 不能绑定域名（小提示：运营商已经开始检查封禁被域名解析的家用宽带了）
 * 服务端提供 Telnet 服务，以供方便提取客户端的 IP 地址
+* 通过“同步密钥（Sync Key）”保证同步数据安全
 
 ### 原理
 
@@ -19,6 +20,20 @@ DIPzilla 可以用于在一台**静态** IP 地址的服务器上记录**动态*
 4. 用户通过访问 Server 端交互终端，获得 Client（可以多个）的公网 IP 地址
 
 ![](/pic/DIP.png)
+
+### 下载 && 安装
+
+[服务端从这里下载](https://github.com/AdlerED/DIPzilla-Server/releases)
+
+[客户端从这里下载](https://github.com/AdlerED/DIPzilla-Client/releases)
+
+```shell script
+For Server:
+java -jar DIPzilla-server.jar [listenPort] [syncKey]
+
+For Client:
+java -jar DIPzilla-client.jar [serverHost] [serverPort] [syncKey] [clientAlias]
+```
 
 ### 截图
 
