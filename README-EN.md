@@ -1,6 +1,6 @@
 ## DIPzilla
 
-DIPzilla can be used for a home server that records ** dynamic ** IP address on a server with ** static ** IP address. Users access the server with ** static ** IP address to get ** dynamic ** Address client information.
+DIPzilla can be used for a home server that records **dynamic** IP address on a server with **static** IP address. Users access the server with **static** IP address to get **dynamic** Address client information.
 
 ### Pros and cons compared to DDNS
 
@@ -14,8 +14,8 @@ DIPzilla can be used for a home server that records ** dynamic ** IP address on 
 
 ### Principle
 
-1. Set up DIPzilla-Server on a server with a ** static ** public network IP address
-2. Set up DIPzilla-Client on the home server with ** dynamic ** public IP address
+1. Set up DIPzilla-Server on a server with a **static** public network IP address
+2. Set up DIPzilla-Client on the home server with **dynamic** public IP address
 3. The client sends a request to the server at regular intervals. The server analyzes the client's public IP address and saves it to the server database.
 4. The user obtains the public IP address of the client (multiple clients) by accessing the interactive terminal on the server.
 
