@@ -29,13 +29,13 @@ DIPzilla can be used for a home server that records ** dynamic ** IP address on 
 
 ```shell script
 For Server:
-java -jar DIPzilla-server.jar [listenPort] [syncKey]
+java -jar dipzilla-server.jar [listenPort] [syncKey]
 
 For Client:
-java -jar DIPzilla-client.jar [serverHost] [serverPort] [syncKey] [clientAlias]
+java -jar dipzilla-client.jar [serverHost] [serverPort] [syncKey] [clientAlias]
 ```
 
-### screenshot
+### Screenshot
 
 ![](/pic/1.png)
 
