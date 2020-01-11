@@ -18,7 +18,7 @@ DIPzilla 可以用于在一台**静态** IP 地址的服务器上记录**动态*
 3. Client 会定时向 Server 发送请求，Server 分析 Client 的公网 IP 地址，并保存到 Server 数据库中
 4. 用户通过访问 Server 端交互终端，获得 Client（可以多个）的公网 IP 地址
 
-![](DIP.png)
+![](/pic/DIP.png)
 
 ### 截图
 
